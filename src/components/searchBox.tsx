@@ -1,5 +1,6 @@
 import React from "react";
 import { IoMdSearch } from "react-icons/io";
+import {cn} from "@/utils/cn";
 
 type Props = {
     value: string;
@@ -11,7 +12,7 @@ type Props = {
 export default function (props: Props) {
     return(
         <form
-            className="flex relative items-center justify-center h-10"
+            className={cn("flex relative items-center justify-center h-10", props.className)}
             onSubmit={props.onSubmit}>
             <input
                 type="text" placeholder="Search location..."

@@ -1,6 +1,6 @@
-import React from "react";
-import { IoMdSearch } from "react-icons/io";
-import {cn} from "@/utils/cn";
+import React from 'react';
+import { IoMdSearch } from 'react-icons/io';
+import {cn} from '@/utils/cn';
 
 type Props = {
     value: string;

@@ -1,8 +1,8 @@
-import React from "react";
-import { MdSunny } from "react-icons/md";
-import { MdOutlineLocationSearching } from "react-icons/md";
-import { SlLocationPin } from "react-icons/sl";
-import SearchBox from "@/components/searchBox";
+import React from 'react';
+import { MdSunny } from 'react-icons/md';
+import { MdOutlineLocationSearching } from 'react-icons/md';
+import { SlLocationPin } from 'react-icons/sl';
+import SearchBox from '@/components/searchBox';
 
 type Props = {};
 
